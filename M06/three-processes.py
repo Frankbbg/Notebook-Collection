@@ -1,3 +1,9 @@
+'''
+This program uses the multiprocessing module to start three separate processes to get the time and wait a random number 
+of seconds. The functions are defined, then the processes are declared with targets pointing to the functions, 
+then the processes are started and joined to wait for child processes to finish.
+'''
+
 import multiprocessing as mp
 import random
 import datetime
